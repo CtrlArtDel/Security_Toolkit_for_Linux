@@ -1,0 +1,31 @@
+# Required Security Tools and Utilities
+
+# Network tools and intrusion detection
+nmap              # Network scanner for port scanning and device discovery
+suricata          # Network IDS/IPS for detecting and preventing network threats
+wireshark         # Network protocol analyzer for real-time packet inspection
+
+# Host-based intrusion detection and file integrity monitoring
+aide              # Advanced Intrusion Detection Environment for file integrity monitoring
+rkhunter          # Rootkit Hunter for detecting rootkits
+
+# Firewall configuration
+ufw               # Uncomplicated Firewall to manage firewall rules
+
+# Antivirus and rootkit detection
+clamav            # Open-source antivirus engine
+lynx              # Terminal-based web browser for clamav updates
+
+# System auditing and vulnerability scanning
+auditd            # Audit daemon for logging system activity
+lynis             # Security auditing tool to check system hardening status
+
+# Automated system updates
+unattended-upgrades  # Automatically install security updates
+
+# Optional for web application security (WAF)
+libapache2-mod-security2  # ModSecurity web application firewall for Apache
+
+# Honeypot
+python3           # Required for setting up and running Cowrie honeypot
+
